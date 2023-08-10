@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login {
+  width: 30rem;
+  margin: 4rem 6rem;
+  padding: 1rem;
+  color: #2a2a2a;
+  border-radius: 8px;
+  height: auto;
+  color: black;
+  background-color: #FFFFFE;
+  box-shadow: 1rem 1rem 2rem 0 rgba(0, 0, 0,0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.login p {
+  cursor: pointer;
+  color: blue;
+}
+
+.login h4 {
+  cursor: pointer;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.login form label {
+  padding: 0.5rem 0;
+  border: none;
+}
+
+.login input {
+  padding: 0.7rem;
+  margin-bottom: 2rem;
+  border-radius: 0.3rem;
+  border: 1px solid #2a2a2a;
+}
+
+.selection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  
+.login {
+    width: 30rem;
+    margin: 4rem 2rem;
+    padding: 0.3rem;
+}
+}
